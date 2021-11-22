@@ -1,6 +1,6 @@
 #!/bin/sh
 mkdir ~/repos && cd ~/repos
-cp ~/dotfiles ~/repos/
+cp ~/dotfiles ~/repos/ -r
 git clone https://github.com/erikinternet/st
 git clone https://github.com/erikinternet/pfetch
 git clone https://git.suckless.org/dmenu
