@@ -15,4 +15,5 @@ cd ../dmenu && doas make clean install
 cd ../dotfiles && pwd
 rm -rf ~/.config && cp .config/ ~ -r
 cp .Xresources .xinitrc .vimrc ~
-mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/1j/wallhaven-1j7xmv.png && mv wallhaven-1j7xmv.png /usr/share/wallpape/wallarch.png
+doas mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/1j/wallhaven-1j7xmv.png && doas mv wallhaven-1j7xmv.png /usr/share/wallpape/wallarch.png
+chsh -s /usr/bin/fish
