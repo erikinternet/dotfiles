@@ -1,0 +1,10 @@
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::plugin_Attach (  ) Failed: INPUT_INVALID: An input function parameter is logically invalid
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::plugin_Attach (  ) Failed: INPUT_INVALID: An input function parameter is logically invalid
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::plugin_Attach (  ) Failed: INPUT_INVALID: An input function parameter is logically invalid
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::plugin_Attach (  ) Failed: INPUT_INVALID: An input function parameter is logically invalid
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
+MainWindow::ui_MessageBox: Error, EmulationThread::run Failed, Core::rom_Open: M64P::Core.DoCommand(M64CMD_ROM_OPEN) Failed: INVALID_STATE: An operation was requested which is not allowed in the current state
