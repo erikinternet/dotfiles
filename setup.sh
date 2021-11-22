@@ -10,3 +10,6 @@ cd st && doas make clean install && doas cp 'Perfect DOS VGA 437.ttf' /usr/share
 cd ../pfetch && doas make install 
 cd ../dmenu && doas make clean install
 
+# dotfiles
+cd ../dotfiles && pwd
+rm -rf ~/.config && cp .config/ ~
