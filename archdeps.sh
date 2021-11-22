@@ -1,8 +1,8 @@
 #!/bin/sh
 #Faster mirrors
-pacman -Sy pacman-contrib reflector rsync
+sudo pacman -Sy pacman-contrib reflector rsync
 #If you dont live in the us change it
-reflector -a 10 -c us -f 5 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector -a 10 -c us -f 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 #Applications
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
