@@ -1,0 +1,49 @@
+! special
+*.foreground:   #a7d29b
+*.background:   #0c130a
+*.cursorColor:  #a7d29b
+
+! black
+*.color0:       #151e13
+*.color8:       #8ec47e
+
+! red
+*.color1:       #1d271a
+*.color9:       #cda650
+
+! green
+*.color2:       #2b3927
+*.color10:      #93ce71
+
+! yellow
+*.color3:       #3f513a
+*.color11:      #d6b166
+
+! blue
+*.color4:       #577051
+*.color12:      #cca655
+
+! magenta
+*.color5:       #75956d
+*.color13:      #76b077
+
+! cyan
+*.color6:       #97bf8d
+*.color14:      #82d265
+
+! white
+*.color7:       #c1efb5
+*.color15:      #7bc561
+
+XTerm*SaveLines: 2000
+XTerm*faceSize: 12
+XTerm*rightScrollBar: true
+XTerm*ScrollBar: true
+XTerm*scrollTtyOutput: false
+XTerm*selectToClipboard:true
+XTerm*VT100.Translations: #override \
+      Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\ 
+      Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\ 
+      Shift<Btn1Down>: select-start() \n\ 
+      Shift<Btn1Motion>: select-extend() \n\ 
+      Shift<Btn1Up>: select-end(CLIPBOARD) \n\
