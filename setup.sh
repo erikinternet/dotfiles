@@ -19,3 +19,5 @@ rm -rf ~/.config && cp .config/ ~ -r
 cp .Xresources .xinitrc .vimrc ~
 doas mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/1j/wallhaven-1j7xmv.png && doas mv wallhaven-1j7xmv.png /usr/share/wallpape/wallarch.png
 chsh -s /usr/bin/fish
+echo "Finaly done, now log out!"
+logout
