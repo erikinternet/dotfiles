@@ -1,5 +1,6 @@
 #!/bin/sh
 mkdir ~/repos && cd ~/repos
+mv ~/yay-bin ~/repos -r
 cp ~/dotfiles ~/repos/ -r
 git clone https://github.com/erikinternet/st
 git clone https://github.com/erikinternet/pfetch
@@ -12,4 +13,6 @@ cd ../dmenu && doas make clean install
 
 # dotfiles
 cd ../dotfiles && pwd
-rm -rf ~/.config && cp .config/ ~
+rm -rf ~/.config && cp .config/ ~ -r
+cp .Xresources .xinitrc .vimrc ~
+mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/1j/wallhaven-1j7xmv.png && mv wallhaven-1j7xmv.png /usr/share/wallpape/wallarch.png
