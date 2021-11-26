@@ -17,8 +17,8 @@ cd ../surf-distrotube && doas make clean install
 cd ../dotfiles && pwd
 rm -rf ~/.config && cp .config/ ~ -r
 cp .Xresources .xinitrc .vimrc ~
-doas mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/1j/wallhaven-1j7xmv.png && doas mv wallhaven-1j7xmv.png /usr/share/wallpape/wallarch.png
+doas mkdir /usr/share/wallpape/ && wget https://w.wallhaven.cc/full/l3/wallhaven-l3j97l.png && doas mv wallhaven-l3j97l.png /usr/share/wallpape/pepewiz.png
 chsh -s /usr/bin/fish
 cd ~ && rm -rf ~/dotfiles
 echo "Finaly done, now log out!"
-logout
+exit
