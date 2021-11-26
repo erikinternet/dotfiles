@@ -45,6 +45,10 @@ alias fagman="doas emerge --sync && doas emerge --verbose --update --deep --newu
 alias d="doas"
 alias de="doas emerge"
 alias e="emerge"
+alias dep="doas emerge --depclean"
+alias lainfetch="neofetch --ascii ~/.config/neofetch/lain"
+alias md="udisksctl mount -b"
+alias um="udisksctl unmount -b"
 
 pfetch
 acpi
